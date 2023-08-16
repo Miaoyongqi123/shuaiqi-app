@@ -1,0 +1,15 @@
+@import "./reset.scss";
+//设置全局变量
+//设置滚动条样式
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-trick{
+    background: $base-menu-background;
+}
+::-webkit-scrollbar-thumb{
+    // background: $base-menu-background;
+    background: greenyellow;
+    width: 15px;
+    border-radius: 10px;
+}
